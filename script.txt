@@ -1,0 +1,9 @@
+# Install pytorch
+# Windows
+pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio===0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
+
+# MacOS
+pip3 install torch torchvision torchaudio
+
+# Install Numpy on Windows and MacOS
+pip install numpy
